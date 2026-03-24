@@ -1,0 +1,26 @@
+name: flashcards_arcade
+description: Flashcards Pro — Retro Arcade Edition
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  fl_chart: ^0.68.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  flutter_animate: ^4.5.0
+  uuid: ^4.3.3  
+  flutter_tts: ^4.0.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
